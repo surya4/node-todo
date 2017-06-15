@@ -1,10 +1,37 @@
 <html lang="en">
-  <% include ../partials/header %>
+<% include ../partials/header %>
+
   <body>
     <% include ../partials/nav %>
-    <p><%= data %></p>
+    <div class="container">
+      <div class="row col-md-12 boards">
+        <div class="col-md-3 board1 board">
+          <h5 class="text-center">To Do</h5>
+          <div id='cont1'></div>
+          <button id='inp1' class='btn'>New Task</button>
+        </div>
+        <div class="col-md-3 board2 board">
+          <h5 class="text-center">Doing</h5>
+          <div id='cont2'></div>
+          <button id='inp2' class='btn'>New Task</button>
+        </div>
+        <div class="col-md-3 board3 board">
+        <h5 class="text-center">Done</h5>
+        <div id='cont3'></div>
+        <button id='inp3' class='btn'>New Task</button>
+        </div>
+        <div class="col-md-2" style="color:red">
+          <button id='inp4' class='btn btn-info btn-xs'>Add New Tag</button>
+          <div id='tag'></div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
       </div>
-<% include ../partials/footer %>
-<% include ../partials/scripts %>
-</body>
+    </div>
+      <!--  -->
+      <% include ../partials/footer %>
+        <% include ../partials/scripts %>
+  </body>
+
 </html>

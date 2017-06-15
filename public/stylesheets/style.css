@@ -6,11 +6,52 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-color: #e2e2e2;
 }
 
 /*.form-control {
   margin-bottom: 4%;
 }*/
+
+.boards{
+  min-height: 80%;
+}
+
+#inp1, #inp2, #inp3{
+  margin: 6% 4% 4% 30%;
+  outline: none;
+}
+
+#inp4{
+  margin: 6% 2% 2% 30%;
+  outline: none;
+}
+
+.board{
+  background-color: #fff;
+  min-height: 30px;
+  margin: 1%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.board1, .board2{
+  /*margin-right: 2%;*/
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 .form-group{
   margin-top: 5%;
