@@ -23,8 +23,23 @@ body {
 }
 
 #inp4{
-  margin: 6% 2% 2% 30%;
+  margin: 10% 2% 2% 20%;
   outline: none;
+}
+
+.side-bar{
+  min-height: 80%;
+  margin-top: 4%;
+}
+
+.hex-box {
+  outline: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: inherit;
 }
 
 .board{
@@ -39,7 +54,7 @@ body {
   /*margin-right: 2%;*/
 }
 
-.card {
+/*.card {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
@@ -51,7 +66,55 @@ body {
 
 .card-2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}*/
+
+/* color pallet */
+
+.colors-list {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  list-style-type: none;
+  float: left;
+		margin: 1.5px;
+		border: 1px solid #e2e2e2;
+
 }
+
+.color-box{
+  display:none;
+  width: 150px;
+  height: 165px;
+		background: #F3F3F3;
+		padding: 5px;
+		border: 5px solid #fff;
+		box-shadow: 0px 0px 3px 1px #DDD;
+		position: absolute;
+		top: 41px;
+		left: 35px;
+}
+
+.color-selector{
+  background: #fff;
+		cursor: pointer;
+		border: 1px solid #999;
+		width: 25px;
+		height: 25px;
+		float: left;
+		margin-left: 5px;
+}
+
+.color-hex{
+  width: 110px;
+  margin-left: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+
 
 .form-group{
   margin-top: 5%;
